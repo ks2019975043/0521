@@ -3,25 +3,34 @@
 <head>
 	<meta charset="utf-8">
 	<title>2019975043 윤태환 과제 메인페이지</title>
-	<style> 
- 	div { 
- 		border : 2px solid yellowgreen; 
- 		color : blue; 
- 		background : aliceblue;  
- 		} 
- 	
- 	} 
- 	</style> 
+	<style>
+	#menubar {
+			background: black;
+		}
+	#menubar ul {
+		margin : 0;
+		padding : 0;
+		width : 567px; 
+	}
+	#menubar ul li { 
+		display: inline-block; 
+		list-style-type: none; 
+		padding: 10px 30px; 
+	}	
+	#menubar ul li a {
+		color : white;
+		text-decoration : none; 
+	}
+	#menubar ul li a:hover {color : green;}
+	</style>
 </head>
 <body>
-<div style="display:inline"> 
-		<a href="file:///C:/Users/i/Documents/과제/공대버스.html">1.공대버스 시간표</a>
-	</div><br><br> 
-<div style="display:inline"> 
-		<a href="file:///C:/Users/i/Documents/과제/Atom.html">2.Atom 간단소개</a>
-	</div><br><br> 
-<div style="display:inline"> 
-		<a href="file:///C:/Users/i/Documents/과제/출처.html">3.출처</a>		
-	</div><br><br>
+
+	<nav id="menubar">
+	<ul> 
+		<li><a href="공대버스.html">공대버스 시간표</a></li>
+		<li><a href="Atom.html">Atom 간단소개</a></li>		
+	</ul>
+</nav>
 </body>
 </html>
